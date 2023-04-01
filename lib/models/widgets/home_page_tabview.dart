@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
+/* 主页面底部选项栏 */
+
 class HomePageTabview extends StatefulWidget {
   final List<String>? tabIconPaths;
   final Color? activeColor;

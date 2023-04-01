@@ -1,6 +1,8 @@
-# schedule_system
+# 星迹
 
-A new Flutter project.
+一款以实现“计划互联”为核心的计划管理系统。
+
+***
 
 ## Getting Started
 
@@ -14,3 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+***
+## 更新记录
+1. 2023.4.1 完成了闪屏页及主页的框架。-by QFye

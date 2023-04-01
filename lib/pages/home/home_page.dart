@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:schedule_system/models/widgets/home_page_tabview.dart';
 import 'package:schedule_system/pages/home/home_controller.dart';
 
+/* 主页面 */
 class HomePage extends StatelessWidget {
   final double bottomTabViewHeight = 50.0;
 

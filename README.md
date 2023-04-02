@@ -20,3 +20,4 @@ samples, guidance on mobile development, and a full API reference.
 ***
 ## 更新记录
 1. 2023.4.1 完成了闪屏页及主页的框架。-by QFye
+2. 2023.4.2 完成了日程事件仓库页面，建立了事件添加页面（待完成）。 -by QFye

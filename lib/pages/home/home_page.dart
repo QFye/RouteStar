@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:schedule_system/models/widgets/home_page_tabview.dart';
 import 'package:schedule_system/pages/home/home_controller.dart';
+import 'package:schedule_system/pages/repository/repository_page.dart';
 
 /* 主页面 */
 class HomePage extends StatelessWidget {
@@ -20,39 +21,14 @@ class HomePage extends StatelessWidget {
                 child: PageView(
               physics: const NeverScrollableScrollPhysics(),
               controller: homeController.pageController,
-              children: [
-                Container(
-                    color: Colors.blue.shade200,
-                    height: double.infinity,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    child: const Text("Test for page 1")),
-                Container(
-                    color: Colors.blue.shade300,
-                    height: double.infinity,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    child: const Text("Test for page 2")),
-                Container(
-                    color: Colors.blue.shade200,
-                    height: double.infinity,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    child: const Text("Test for page 3")),
-                Container(
-                    color: Colors.blue.shade300,
-                    height: double.infinity,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    child: const Text("Test for page 4"))
-              ],
+              children: homeController.pageViews,
             )),
             Positioned(
                 left: 0,
                 right: 0,
                 bottom: 0,
                 child: Container(
-                  color: Colors.white,
+                  color: Colors.blue.shade200,
                   height: bottomTabViewHeight,
                   child: HomePageTabview(
                       tabIconPaths: const [
